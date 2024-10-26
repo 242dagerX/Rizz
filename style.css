@@ -1,0 +1,390 @@
+* {
+  margin: none;
+  padding: none;
+  border: none;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: plum;
+  position: relative;
+}
+
+.content-container {
+  position: absolute;
+  z-index: 1;
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  position: relative;
+}
+
+.question-text {
+  top: 18%;
+  width: calc(50vh + 50vw);
+  color: rgb(203, 128, 171);
+  font-family: "DynaPuff";
+  -webkit-text-stroke: calc(.1vh + .1vw) rgb(98, 78, 136);
+  font-size: calc(3.5vh + 3.5vw);
+  text-align: center;
+  margin-bottom: 36vh;
+  position: absolute;
+}
+
+button {
+  height: 12.5vh; /*have to change this to make it responsive*/ 
+  width: 12.5vw; /*have to change this to make it responsive*/
+  color: rgb(203, 128, 171);
+  background-color: rgb(137, 103, 179);
+  font-weight: 800;
+  font-size: calc(2.8vh + 2.8vw);
+  -webkit-text-stroke: calc(.16vh + .16vw) rgb(98, 78, 136);
+  border: calc(.22vh + .22vw) solid rgb(98, 78, 136);
+  border-radius: calc(2.4vh + 2.4vw);
+  text-align: center;
+  position: absolute;
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+}
+
+.yes-btn {
+  top: 45%;
+  right: 60%;
+}
+
+.no-btn {
+  top: 45%;
+  left: 60%;
+}
+
+.background {
+  position: relative;
+  z-index: 0;
+}
+
+img {
+  position: absolute;
+  width: calc(3vh + 3vw);
+  height: calc(3vh + 3vw);
+
+
+  
+}
+
+.rotate {
+  /**Animation-Properties**/
+
+  animation-name: rotate ;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+
+
+  animation-timing-function: linear;
+}
+
+@keyframes rotate {
+  50% {
+    transform: scale(135%) rotate(180deg);
+  }
+  100% {
+    transform: scale(100%) rotate(360deg);
+  }
+}
+
+@keyframes dropl1 {
+  10% {top: 12vh;}
+  25% {top: 1vh;}
+  45% {top: 8vh;}
+  70% {top: 3vh;}
+  100% {top: 4.2vh;}
+}
+
+@keyframes dropl2 {
+  10% {top: 34.175vh;}
+  25% {top: 23.175vh;}
+  45% {top: 30.175vh;}
+  70% {top: 25.175vh;}
+  100% {top: 26.375vh;}
+}
+
+@keyframes dropl3 {
+  10% {top: 53.3vh;}
+  25% {top: 42.3vh;}
+  45% {top: 49.3vh;}
+  70% {top: 44.3vh;}
+  100% {top: 45.5vh;}
+}
+
+@keyframes dropl4 {
+  10% {top: 72.925vh;}
+  25% {top: 61.925vh;}
+  45% {top: 68.925vh;}
+  70% {top: 63.925vh;}
+  100% {top: 65.125vh;}
+}
+
+@keyframes dropl5 {
+  10% {top: 90.5vh;}
+  25% {top: 83.3vh;}
+  45% {top: 90.3vh;}
+  70% {top: 85.3vh;}
+  100% {top: 86.5vh;}
+}
+
+
+/**L1**/
+
+#img1l1 {
+  left: 3vw;
+
+  animation-name: dropl1 ;
+  animation-timing-function: linear;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+#img2l1 {
+  left: 25.375vw;
+  /** animation-delay: -0.5s **/;
+
+  animation-name: dropl1 ;
+  animation-timing-function: linear;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: .3s;
+}
+
+#img3l1 {
+  left: 47.75vw;
+  /** animation-delay: -1s; **/
+
+  animation-name: dropl1 ;
+  animation-timing-function: linear;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: .6s;
+}
+
+#img4l1 {
+  left: 70.125vw;
+  /** animation-delay: -1.5s **/;
+
+  animation-name: dropl1 ;
+  animation-timing-function: linear;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: .3s;
+}
+
+#img5l1 {
+  left: 92.5vw;
+  /** animation-delay: -2s; **/
+
+  animation-name: dropl1 ;
+  animation-timing-function: linear;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+ 
+/**L2**/
+
+#img6l2 {
+  left: 3vw;
+/**  animation-delay: -0.5s; **/
+
+animation-name: dropl2 ;
+  animation-timing-function: linear;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 0.9s;
+}
+
+#img7l2 {
+  left: 92.5vw;
+/**  animation-delay: -1s; **/
+
+animation-name: dropl2 ;
+  animation-timing-function: linear;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 0.9s;
+}
+
+/**L3**/
+
+#img8l3 {
+  left: 14.1875vw;
+/**  animation-delay: -1s; **/
+
+animation-name: dropl3 ;
+  animation-timing-function: linear;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 1.2s;
+}
+
+#img9l3 {
+  left: 81.3125vw;
+/**  animation-delay: -1.5s; **/
+
+animation-name: dropl3 ;
+  animation-timing-function: linear;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 1.2s;
+}
+
+/**L4**/
+
+#img10l4 {
+  left: 3vw;
+/**  animation-delay: -1.5s; **/
+
+animation-name: dropl4 ;
+  animation-timing-function: linear;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 2.1s;
+}
+
+#img11l4 {
+  left: 25.375vw;
+/**  animation-delay: -2s; **/
+
+animation-name: dropl4 ;
+  animation-timing-function: linear;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 1.8s;
+}
+
+#img12l4 {
+  left: 47.75vw;
+/**  animation-delay: -2.5s; **/
+
+animation-name: dropl4 ;
+  animation-timing-function: linear;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 1.5s;
+}
+
+#img13l4 {
+  left: 70.125vw;
+/**  animation-delay: -3s; **/
+
+animation-name: dropl4 ;
+  animation-timing-function: linear;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 1.8s;
+}
+
+#img14l4 {
+  left: 92.5vw;
+/**  animation-delay: -3.5s; **/
+
+animation-name: dropl4 ;
+  animation-timing-function: linear;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 2.1s;
+}
+
+/**L5**/
+
+#img15l5 {
+  left: 14.1875vw;
+/**  animation-delay: -2s; **/
+
+animation-name: dropl5 ;
+  animation-timing-function: linear;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 2.4s;
+}
+
+#img16l5 {
+  left: 36.5625vw;
+/**  animation-delay: -2.5s; **/
+
+animation-name: dropl5 ;
+  animation-timing-function: linear;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 2.7s;
+}
+
+#img17l5 {
+  left: 58.9375vw;
+/**  animation-delay:-10.5s; **/
+
+animation-name: dropl5 ;
+  animation-timing-function: linear;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 2.7s;
+}
+
+#img18l5 {
+  left: 81.3125vw;
+/**  animation-delay: -3.5s; **/
+
+animation-name: dropl5 ;
+  animation-timing-function: linear;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 2.4s;
+}
+
+.l1, .l2, .l3, .l4, .l5 {top: -10.5vh;}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+  .yes-btn, .no-btn{
+    height: 12vw; /*have to change this to make it responsive*/ 
+    width: 12vh; /*have to change this to make it responsive*/
+  }
+}
