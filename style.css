@@ -161,7 +161,7 @@ img {
 
 #img2l1 {
   left: 25.375vw;
-  /** animation-delay: -0.5s **/;
+  /** animation-delay: -0.5s; (Original) **/
 
   animation-name: dropl1 ;
   animation-timing-function: linear;
@@ -173,7 +173,7 @@ img {
 
 #img3l1 {
   left: 47.75vw;
-  /** animation-delay: -1s; **/
+  /** animation-delay: -1s; (Original) **/
 
   animation-name: dropl1 ;
   animation-timing-function: linear;
@@ -185,7 +185,7 @@ img {
 
 #img4l1 {
   left: 70.125vw;
-  /** animation-delay: -1.5s **/;
+  /** animation-delay: -1.5s; (Original) **/
 
   animation-name: dropl1 ;
   animation-timing-function: linear;
@@ -197,7 +197,7 @@ img {
 
 #img5l1 {
   left: 92.5vw;
-  /** animation-delay: -2s; **/
+  /** animation-delay: -2s; (Original) **/
 
   animation-name: dropl1 ;
   animation-timing-function: linear;
@@ -210,7 +210,7 @@ img {
 
 #img6l2 {
   left: 3vw;
-/**  animation-delay: -0.5s; **/
+/**  animation-delay: -0.5s; (Origina) **/
 
 animation-name: dropl2 ;
   animation-timing-function: linear;
@@ -222,7 +222,7 @@ animation-name: dropl2 ;
 
 #img7l2 {
   left: 92.5vw;
-/**  animation-delay: -1s; **/
+/**  animation-delay: -1s; (Origina) **/
 
 animation-name: dropl2 ;
   animation-timing-function: linear;
@@ -236,7 +236,7 @@ animation-name: dropl2 ;
 
 #img8l3 {
   left: 14.1875vw;
-/**  animation-delay: -1s; **/
+/**  animation-delay: -1s; (Origina) **/
 
 animation-name: dropl3 ;
   animation-timing-function: linear;
@@ -248,7 +248,7 @@ animation-name: dropl3 ;
 
 #img9l3 {
   left: 81.3125vw;
-/**  animation-delay: -1.5s; **/
+/**  animation-delay: -1.5s; (Origina) **/
 
 animation-name: dropl3 ;
   animation-timing-function: linear;
@@ -262,7 +262,7 @@ animation-name: dropl3 ;
 
 #img10l4 {
   left: 3vw;
-/**  animation-delay: -1.5s; **/
+/**  animation-delay: -1.5s; (Origina) **/
 
 animation-name: dropl4 ;
   animation-timing-function: linear;
@@ -274,7 +274,7 @@ animation-name: dropl4 ;
 
 #img11l4 {
   left: 25.375vw;
-/**  animation-delay: -2s; **/
+/**  animation-delay: -2s; (Origina) **/
 
 animation-name: dropl4 ;
   animation-timing-function: linear;
@@ -286,7 +286,7 @@ animation-name: dropl4 ;
 
 #img12l4 {
   left: 47.75vw;
-/**  animation-delay: -2.5s; **/
+/**  animation-delay: -2.5s; (Origina) **/
 
 animation-name: dropl4 ;
   animation-timing-function: linear;
@@ -298,7 +298,7 @@ animation-name: dropl4 ;
 
 #img13l4 {
   left: 70.125vw;
-/**  animation-delay: -3s; **/
+/**  animation-delay: -3s; (Origina) **/
 
 animation-name: dropl4 ;
   animation-timing-function: linear;
@@ -310,7 +310,7 @@ animation-name: dropl4 ;
 
 #img14l4 {
   left: 92.5vw;
-/**  animation-delay: -3.5s; **/
+/**  animation-delay: -3.5s; (Origina) **/
 
 animation-name: dropl4 ;
   animation-timing-function: linear;
@@ -324,7 +324,7 @@ animation-name: dropl4 ;
 
 #img15l5 {
   left: 14.1875vw;
-/**  animation-delay: -2s; **/
+/**  animation-delay: -2s; (Origina) **/
 
 animation-name: dropl5 ;
   animation-timing-function: linear;
@@ -336,7 +336,7 @@ animation-name: dropl5 ;
 
 #img16l5 {
   left: 36.5625vw;
-/**  animation-delay: -2.5s; **/
+/**  animation-delay: -2.5s; (Origina) **/
 
 animation-name: dropl5 ;
   animation-timing-function: linear;
@@ -348,7 +348,7 @@ animation-name: dropl5 ;
 
 #img17l5 {
   left: 58.9375vw;
-/**  animation-delay:-10.5s; **/
+/**  animation-delay:-10.5s; (Origina) **/
 
 animation-name: dropl5 ;
   animation-timing-function: linear;
@@ -360,7 +360,7 @@ animation-name: dropl5 ;
 
 #img18l5 {
   left: 81.3125vw;
-/**  animation-delay: -3.5s; **/
+/**  animation-delay: -3.5s; (Origina) **/
 
 animation-name: dropl5 ;
   animation-timing-function: linear;
