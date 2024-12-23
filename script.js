@@ -26,14 +26,15 @@ const img17 = document.getElementById("img17l5");
 const img18 = document.getElementById("img18l5");
 
 
-setTimeout(() => {
+setTimeout(() => {   
 
+yes_btn.addEventListener("click", rotate_and_change_txt);
 
 no_btn.addEventListener("click", move_no_btn);
 
-no_btn.addEventListener("mouseover", () => {
-  setTimeout(move_no_btn, 120)
-});
+no_btn.addEventListener("mouseover", move_no_btn);
+
+},3400)
   
   function move_no_btn() {
     
@@ -57,8 +58,6 @@ no_btn.addEventListener("mouseover", () => {
     no_btn.style.left = X_cord + "%";
     no_btn.style.top = Y_cord + "%";
   };
-  
-yes_btn.addEventListener("click", rotate_and_change_txt);
   
   function rotate_and_change_txt() {
   
@@ -117,9 +116,9 @@ yes_btn.addEventListener("click", rotate_and_change_txt);
       img16.style.animation = "rotate 3s linear -2.5s infinite";
       img17.style.animation = "rotate 3s linear -3s infinite";
       img18.style.animation = "rotate 3s linear -3.5s infinite";
-    
+  
   };
 
 
-},3400)
+
 
